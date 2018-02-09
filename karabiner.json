@@ -148,6 +148,27 @@
                     {
                         "manipulators": [
                             {
+                                "description": "fn + spacebar = non_us_backslash",
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "non_us_backslash"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "manipulators": [
+                            {
                                 "description": "fn + f = RIGHT",
                                 "from": {
                                     "key_code": "f",
@@ -478,6 +499,14 @@
                     },
                     "to": {
                         "key_code": "left_command"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "delete_forward"
+                    },
+                    "to": {
+                        "key_code": "non_us_backslash"
                     }
                 }
             ],

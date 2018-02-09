@@ -1,0 +1,79 @@
+{
+  "title": "colemak arrow keys",
+          "rules":[
+             {
+                  "manipulators":[
+                      {
+                          "description":"alt + t = RIGHT",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"t",
+                              "modifiers":{ "mandatory":["left_option"]}
+                          },
+                          "to":[{"key_code":"right_arrow"}]
+                      }
+                  ]
+              },{
+                  "manipulators":[
+                      {
+                          "description":"alt + s = DOWN",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"s",
+                              "modifiers":{ "mandatory":["left_option"]}
+                          },
+                          "to":[{"key_code":"down_arrow"}]
+                      }
+                  ]
+              },{
+                  "manipulators":[
+                      {
+                          "description":"alt + r = Left",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"r",
+                              "modifiers":{ "mandatory":["left_option"]}
+                          },
+                          "to":[{"key_code":"left_arrow"}]
+                      }
+                  ]
+              },{
+                  "manipulators":[
+                      {
+                          "description":"alt + f = UP",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"f",
+                              "modifiers":{ "mandatory":["left_option"]}
+                          },
+                          "to":[{"key_code":"up_arrow"}]
+                      }
+                  ]
+              },{
+                  "manipulators":[
+                      {
+                          "description":"alt + a = HOME",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"a",
+                              "modifiers":{ "mandatory":["left_option"]}
+                          },
+                          "to":[{"key_code":"home"}]
+                      }
+                  ]
+              },{
+                  "manipulators":[
+                      {
+                          "description":"alt + d = END",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"d",
+                              "modifiers":{ "mandatory":["left_option"]}
+                          },
+                          "to":[{"key_code":"end"}]
+                      }
+                  ]
+              }
+          ]
+        
+      }

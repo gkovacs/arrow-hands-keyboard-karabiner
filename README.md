@@ -16,6 +16,28 @@ rm -rf karabiner # this deletes your existing karabiner configuration
 git clone https://github.com/gkovacs/arrow-hands-keyboard-karabiner.git karabiner
 ```
 
+## Compose key
+
+Also includes compose key support. It is mapped to fn+space as well as to delete (fn+backspace). It is generated as follows (must be run on Ubuntu)
+
+```
+cat /usr/share/X11/locale/en_US.UTF-8/Compose | perl compose2keybindings.pl > DefaultKeyBinding.dict
+```
+
+Then replace
+
+```
+	"\UF710" = {
+```
+
+With
+
+```
+	"\U00A7" = {
+```
+
+And copy the resulting file to `~/Library/KeyBindings/DefaultKeyBinding.dict`
+
 ## License
 
 MIT

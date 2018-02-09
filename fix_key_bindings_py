@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-txt = open('DefaultKeyBinding.dict').read()
-txt = txt.replace('"\UF710"', '"\U00A7"') # make delete the compose key instead of F13
-txt = txt.replace('"\U007E"', '"\\\\~"') # fix compose key codes which use tilde
+txt = open('DefaultKeyBinding_orig.dict').read()
+txt = txt.replace('"\UF710" = {', '"\U00A7" = {') # make delete the compose key instead of F13
+txt = txt.replace('"\U007E" = (', '"\\\\~" = (') # fix compose key codes which use tilde
+txt = txt.replace('"\U007E" = {', '"\\\\~" = {') # fix compose key codes which use tilde
+txt = txt.replace('"\U005E" = (', '"\\\\^" = (') # fix compose key codes which use caret
+txt = txt.replace('"\U005E" = {', '"\\\\^" = {') # fix compose key codes which use caret
 open('DefaultKeyBinding.dict', 'w').write(txt)

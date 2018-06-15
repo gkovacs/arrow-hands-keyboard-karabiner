@@ -392,7 +392,7 @@
                     {
                         "manipulators": [
                             {
-                                "description": "fn + b = equals",
+                                "description": "fn + b = minus",
                                 "from": {
                                     "key_code": "b",
                                     "modifiers": {
@@ -403,10 +403,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "equal_sign",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
+                                        "key_code": "hyphen"
                                     }
                                 ],
                                 "type": "basic"

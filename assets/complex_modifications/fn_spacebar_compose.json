@@ -4,13 +4,46 @@
              {
                   "manipulators":[
                       {
-                          "description":"fn + spacebar = non_us_backslash",
+                          "description":"fn + spacebar = non_us_backslash for non-rime",
                           "type":"basic",
                           "from":{
                               "key_code":"spacebar",
                               "modifiers":{ "mandatory":["fn"]}
                           },
-                          "to":[{"key_code":"non_us_backslash"}]
+                          "to":[{"key_code":"non_us_backslash"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_unless",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "im.rime.inputmethod.Squirrel.Rime"
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"fn + spacebar = f16 for rime",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"spacebar",
+                              "modifiers":{ "mandatory":["fn"]}
+                          },
+                          "to":[{"key_code":"f16"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "im.rime.inputmethod.Squirrel.Rime"
+                                }
+                              ]
+                            }
+                          ]
                       }
                   ]
               }

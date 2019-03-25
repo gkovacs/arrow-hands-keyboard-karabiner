@@ -25,6 +25,28 @@
     {  
       "manipulators":[  
         {
+          "description":"command + shift + spacebar = f17",
+          "type":"basic",
+          "from":{  
+            "key_code":"spacebar",
+            "modifiers":{  
+              "mandatory":[  
+                "command",
+                "shift"
+              ]
+            }
+          },
+          "to":[  
+            {  
+              "key_code":"f17"
+            }
+          ]
+        }
+      ]
+    },
+    {  
+      "manipulators":[  
+        {
           "description":"command + grave = f18",
           "type":"basic",
           "from":{  

@@ -1,0 +1,47 @@
+{  
+  "title":"command spacebar",
+  "rules":[  
+    {  
+      "manipulators":[  
+        {
+          "description":"command + spacebar = f19",
+          "type":"basic",
+          "from":{  
+            "key_code":"spacebar",
+            "modifiers":{  
+              "mandatory":[  
+                "command"
+              ]
+            }
+          },
+          "to":[  
+            {  
+              "key_code":"f19"
+            }
+          ]
+        }
+      ]
+    },
+    {  
+      "manipulators":[  
+        {
+          "description":"command + grave = f18",
+          "type":"basic",
+          "from":{  
+            "key_code":"grave_accent_and_tilde",
+            "modifiers":{  
+              "mandatory":[  
+                "command"
+              ]
+            }
+          },
+          "to":[  
+            {  
+              "key_code":"f18"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

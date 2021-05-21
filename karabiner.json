@@ -1868,6 +1868,14 @@
                             "to": {
                                 "key_code": "fn"
                             }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_option"
+                            },
+                            "to": {
+                                "key_code": "right_command"
+                            }
                         }
                     ]
                 },

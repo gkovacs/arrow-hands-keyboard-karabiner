@@ -1,0 +1,32 @@
+{
+  "title": "right gui enter",
+          "rules":[
+             {
+                  "manipulators":[
+                      {
+                          "description":"right_gui + enter = control + enter",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"return_or_enter",
+                              "modifiers":{ "mandatory":["right_gui"]}
+                          },
+                          "to":[{"key_code":"return_or_enter", "modifiers": ["right_control"]}]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"fn + enter = control + enter",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"return_or_enter",
+                              "modifiers":{ "mandatory":["fn"]}
+                          },
+                          "to":[{"key_code":"return_or_enter", "modifiers": ["right_control"]}]
+                      }
+                  ]
+              }
+          ]
+        
+      }

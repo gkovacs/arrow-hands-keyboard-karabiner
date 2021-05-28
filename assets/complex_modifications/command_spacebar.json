@@ -1,22 +1,32 @@
 {  
-  "title":"command spacebar",
+  "title":"control spacebar",
   "rules":[  
     {  
-      "manipulators":[  
+      "manipulators":[
         {
-          "description":"command + spacebar = f19",
+          "description":"left_gui + spacebar = f19",
           "type":"basic",
           "from":{  
             "key_code":"spacebar",
             "modifiers":{  
               "mandatory":[  
-                "command"
+                "left_gui"
               ]
             }
           },
           "to":[  
             {  
               "key_code":"f19"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "im.rime.inputmethod.Squirrel.Rime"
+                }
+              ]
             }
           ]
         }
@@ -36,9 +46,19 @@
               ]
             }
           },
-          "to":[  
+          "to":[
             {  
               "key_code":"f17"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "im.rime.inputmethod.Squirrel.Rime"
+                }
+              ]
             }
           ]
         }
@@ -60,6 +80,16 @@
           "to":[  
             {  
               "key_code":"f18"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "input_source_if",
+              "input_sources": [
+                {
+                  "input_source_id": "im.rime.inputmethod.Squirrel.Rime"
+                }
+              ]
             }
           ]
         }

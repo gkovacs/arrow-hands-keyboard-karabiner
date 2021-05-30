@@ -2128,30 +2128,6 @@
                     {
                         "manipulators": [
                             {
-                                "description": "right_gui + enter = control + enter",
-                                "from": {
-                                    "key_code": "return_or_enter",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "right_gui"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "return_or_enter",
-                                        "modifiers": [
-                                            "right_control"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "manipulators": [
-                            {
                                 "description": "fn + enter = control + enter",
                                 "from": {
                                     "key_code": "return_or_enter",
@@ -2445,10 +2421,18 @@
                     "simple_modifications": [
                         {
                             "from": {
-                                "key_code": "f24"
+                                "key_code": "left_command"
                             },
                             "to": {
                                 "key_code": "fn"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_control"
+                            },
+                            "to": {
+                                "key_code": "left_command"
                             }
                         }
                     ]

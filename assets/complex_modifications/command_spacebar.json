@@ -35,7 +35,7 @@
     {  
       "manipulators":[  
         {
-          "description":"command + shift + spacebar = f17",
+          "description":"command + shift + spacebar = f20",
           "type":"basic",
           "from":{  
             "key_code":"spacebar",
@@ -48,7 +48,7 @@
           },
           "to":[
             {  
-              "key_code":"f17"
+              "key_code":"f20"
             }
           ],
           "conditions": [
@@ -67,7 +67,7 @@
     {  
       "manipulators":[  
         {
-          "description":"command + grave = f18",
+          "description":"command + grave = f21",
           "type":"basic",
           "from":{  
             "key_code":"grave_accent_and_tilde",
@@ -79,7 +79,7 @@
           },
           "to":[  
             {  
-              "key_code":"f18"
+              "key_code":"f21"
             }
           ],
           "conditions": [

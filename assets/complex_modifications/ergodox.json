@@ -1,0 +1,74 @@
+{  
+  "title":"ergodox",
+  "rules":[  
+    {  
+      "manipulators":[
+        {
+          "description":"japanese_pc_katakana = right gui + spacebar",
+          "type":"basic",
+          "from":{  
+            "key_code":"japanese_pc_katakana"
+          },
+          "to":[  
+            {  
+              "key_code":"spacebar",
+              "modifiers": ["right_command"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "manipulators":[
+          {
+              "description":"home = command + left non-iterm",
+              "type":"basic",
+              "from":{
+                  "key_code":"home"
+              },
+              "to": [
+                  {
+                      "key_code": "left_arrow",
+                      "modifiers": ["right_command"]
+                  }
+              ],
+              "conditions": [
+                {
+                    "type": "frontmost_application_unless",
+                    "bundle_identifiers": [
+                        "^com\\.apple\\.Terminal$",
+                        "^com\\.googlecode\\.iterm2$"
+                    ]
+                }
+              ]
+          }
+      ]
+    },
+    {
+      "manipulators":[
+          {
+              "description":"end = command + right non-iterm",
+              "type":"basic",
+              "from":{
+                  "key_code":"end"
+              },
+              "to": [
+                  {
+                      "key_code": "right_arrow",
+                      "modifiers": ["right_command"]
+                  }
+              ],
+              "conditions": [
+                {
+                    "type": "frontmost_application_unless",
+                    "bundle_identifiers": [
+                        "^com\\.apple\\.Terminal$",
+                        "^com\\.googlecode\\.iterm2$"
+                    ]
+                }
+              ]
+          }
+      ]
+    }
+  ]
+}

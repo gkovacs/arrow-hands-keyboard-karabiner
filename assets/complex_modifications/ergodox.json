@@ -4,7 +4,24 @@
     {  
       "manipulators":[
         {
-          "description":"left option + spacebar = right comamnd + spacebar",
+          "description":"f18 = right command + spacebar",
+          "type":"basic",
+          "from":{  
+            "key_code":"f18"
+          },
+          "to":[  
+            {  
+              "key_code":"spacebar",
+              "modifiers": ["right_command"]
+            }
+          ]
+        }
+      ]
+    },
+    {  
+      "manipulators":[
+        {
+          "description":"left option + spacebar = right command + spacebar",
           "type":"basic",
           "from":{  
             "key_code":"spacebar",

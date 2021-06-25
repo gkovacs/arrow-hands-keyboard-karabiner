@@ -4,10 +4,15 @@
     {  
       "manipulators":[
         {
-          "description":"japanese_pc_katakana = right gui + spacebar",
+          "description":"left option + spacebar = right comamnd + spacebar",
           "type":"basic",
           "from":{  
-            "key_code":"japanese_pc_katakana"
+            "key_code":"spacebar",
+            "modifiers":{  
+              "mandatory":[  
+                "left_option"
+              ]
+            }
           },
           "to":[  
             {  

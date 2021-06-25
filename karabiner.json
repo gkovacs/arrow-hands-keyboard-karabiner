@@ -1166,25 +1166,6 @@
                     {
                         "manipulators": [
                             {
-                                "description": "f18 = right command + spacebar",
-                                "from": {
-                                    "key_code": "f18"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "spacebar",
-                                        "modifiers": [
-                                            "right_command"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "manipulators": [
-                            {
                                 "conditions": [
                                     {
                                         "input_sources": [

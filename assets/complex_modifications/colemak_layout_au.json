@@ -1,10 +1,10 @@
 {
-  "title": "colemak layout",
+  "title": "colemak layout if IME is AU unless device is ZSA or Apple",
           "rules":[
              {
                   "manipulators":[
                       {
-                          "description":"s => r",
+                          "description":"s => r AU",
                           "type":"basic",
                           "from":{
                               "key_code":"s"
@@ -15,7 +15,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -23,8 +23,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -35,7 +42,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"d => s",
+                          "description":"d => s AU",
                           "type":"basic",
                           "from":{
                               "key_code":"d"
@@ -46,7 +53,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -54,8 +61,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -66,7 +80,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"f => t",
+                          "description":"f => t AU",
                           "type":"basic",
                           "from":{
                               "key_code":"f"
@@ -77,7 +91,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -85,8 +99,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -97,7 +118,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"g => d",
+                          "description":"g => d AU",
                           "type":"basic",
                           "from":{
                               "key_code":"g"
@@ -108,7 +129,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -116,8 +137,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -128,7 +156,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"j => n",
+                          "description":"j => n AU",
                           "type":"basic",
                           "from":{
                               "key_code":"j"
@@ -139,7 +167,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -147,8 +175,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -159,7 +194,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"k => e",
+                          "description":"k => e AU",
                           "type":"basic",
                           "from":{
                               "key_code":"k"
@@ -170,7 +205,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -178,8 +213,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -190,7 +232,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"l => i",
+                          "description":"l => i AU",
                           "type":"basic",
                           "from":{
                               "key_code":"l"
@@ -201,7 +243,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -209,8 +251,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -221,7 +270,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"semicolon => o",
+                          "description":"semicolon => o AU",
                           "type":"basic",
                           "from":{
                               "key_code":"semicolon"
@@ -232,7 +281,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -240,8 +289,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -252,7 +308,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"n => k",
+                          "description":"n => k AU",
                           "type":"basic",
                           "from":{
                               "key_code":"n"
@@ -263,7 +319,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -271,8 +327,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -283,7 +346,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"e => f",
+                          "description":"e => f AU",
                           "type":"basic",
                           "from":{
                               "key_code":"e"
@@ -294,7 +357,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -302,8 +365,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -314,7 +384,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"r => p",
+                          "description":"r => p AU",
                           "type":"basic",
                           "from":{
                               "key_code":"r"
@@ -325,7 +395,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -333,8 +403,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -345,7 +422,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"t => g",
+                          "description":"t => g AU",
                           "type":"basic",
                           "from":{
                               "key_code":"t"
@@ -356,7 +433,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -364,8 +441,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -376,7 +460,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"y => j",
+                          "description":"y => j AU",
                           "type":"basic",
                           "from":{
                               "key_code":"y"
@@ -387,7 +471,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -395,8 +479,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -407,7 +498,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"u => l",
+                          "description":"u => l AU",
                           "type":"basic",
                           "from":{
                               "key_code":"u"
@@ -418,7 +509,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -426,8 +517,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -438,7 +536,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"i => u",
+                          "description":"i => u AU",
                           "type":"basic",
                           "from":{
                               "key_code":"i"
@@ -449,7 +547,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -457,8 +555,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -469,7 +574,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"o => y",
+                          "description":"o => y AU",
                           "type":"basic",
                           "from":{
                               "key_code":"o"
@@ -480,7 +585,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -488,8 +593,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -500,7 +612,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"p => semicolon",
+                          "description":"p => semicolon AU",
                           "type":"basic",
                           "from":{
                               "key_code":"p"
@@ -511,7 +623,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -519,8 +631,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -531,7 +650,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"S => R",
+                          "description":"S => R AU",
                           "type":"basic",
                           "from":{
                               "key_code":"s",
@@ -545,7 +664,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -553,8 +672,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -565,7 +691,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"D => S",
+                          "description":"D => S AU",
                           "type":"basic",
                           "from":{
                               "key_code":"d",
@@ -579,7 +705,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -587,8 +713,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -599,7 +732,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"F => T",
+                          "description":"F => T AU",
                           "type":"basic",
                           "from":{
                               "key_code":"f",
@@ -613,7 +746,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -621,8 +754,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -633,7 +773,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"G => D",
+                          "description":"G => D AU",
                           "type":"basic",
                           "from":{
                               "key_code":"g",
@@ -647,7 +787,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -655,8 +795,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -667,7 +814,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"J => N",
+                          "description":"J => N AU",
                           "type":"basic",
                           "from":{
                               "key_code":"j",
@@ -681,7 +828,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -689,8 +836,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -701,7 +855,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"K => E",
+                          "description":"K => E AU",
                           "type":"basic",
                           "from":{
                               "key_code":"k",
@@ -715,7 +869,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -723,8 +877,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -735,7 +896,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"L => I",
+                          "description":"L => I AU",
                           "type":"basic",
                           "from":{
                               "key_code":"l",
@@ -749,7 +910,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -757,8 +918,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -769,7 +937,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"colon => O",
+                          "description":"colon => O AU",
                           "type":"basic",
                           "from":{
                               "key_code":"semicolon",
@@ -783,7 +951,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -791,8 +959,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -803,7 +978,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"N => K",
+                          "description":"N => K AU",
                           "type":"basic",
                           "from":{
                               "key_code":"n",
@@ -817,7 +992,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -825,8 +1000,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -837,7 +1019,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"E => F",
+                          "description":"E => F AU",
                           "type":"basic",
                           "from":{
                               "key_code":"e",
@@ -851,7 +1033,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -859,8 +1041,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -871,7 +1060,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"R => P",
+                          "description":"R => P AU",
                           "type":"basic",
                           "from":{
                               "key_code":"r",
@@ -885,7 +1074,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -893,8 +1082,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -905,7 +1101,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"T => G",
+                          "description":"T => G AU",
                           "type":"basic",
                           "from":{
                               "key_code":"t",
@@ -919,7 +1115,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -927,8 +1123,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -939,7 +1142,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"Y => J",
+                          "description":"Y => J AU",
                           "type":"basic",
                           "from":{
                               "key_code":"y",
@@ -953,7 +1156,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -961,8 +1164,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -973,7 +1183,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"U => L",
+                          "description":"U => L AU",
                           "type":"basic",
                           "from":{
                               "key_code":"u",
@@ -987,7 +1197,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -995,8 +1205,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -1007,7 +1224,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"I => U",
+                          "description":"I => U AU",
                           "type":"basic",
                           "from":{
                               "key_code":"i",
@@ -1021,7 +1238,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -1029,8 +1246,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -1041,7 +1265,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"O => Y",
+                          "description":"O => Y AU",
                           "type":"basic",
                           "from":{
                               "key_code":"o",
@@ -1055,7 +1279,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -1063,8 +1287,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }
@@ -1075,7 +1306,7 @@
               {
                   "manipulators":[
                       {
-                          "description":"P => colon",
+                          "description":"P => colon AU",
                           "type":"basic",
                           "from":{
                               "key_code":"p",
@@ -1089,7 +1320,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                  "input_source_id": "com.apple.keylayout.Australian"
                                 }
                               ]
                             },
@@ -1097,8 +1328,15 @@
                               "type": "device_unless",
                               "identifiers": [
                                 {
-                                  "vendor_id": 12951,
-                                  "product_id": 18806
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 1452
                                 }
                               ]
                             }

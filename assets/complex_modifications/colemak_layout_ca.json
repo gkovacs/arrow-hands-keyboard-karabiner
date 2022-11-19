@@ -1,0 +1,1078 @@
+{
+  "title": "colemak layout if IME is CA unless device is ZSA",
+          "rules":[
+             {
+                  "manipulators":[
+                      {
+                          "description":"s => r CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"s"
+                          },
+                          "to":[{"key_code":"r"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"d => s CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"d"
+                          },
+                          "to":[{"key_code":"s"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"f => t CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"f"
+                          },
+                          "to":[{"key_code":"t"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"g => d CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"g"
+                          },
+                          "to":[{"key_code":"d"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"j => n CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"j"
+                          },
+                          "to":[{"key_code":"n"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"k => e CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"k"
+                          },
+                          "to":[{"key_code":"e"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"l => i CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"l"
+                          },
+                          "to":[{"key_code":"i"}],
+                         "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"semicolon => o CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"semicolon"
+                          },
+                          "to":[{"key_code":"o"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"n => k CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"n"
+                          },
+                          "to":[{"key_code":"k"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"e => f CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"e"
+                          },
+                          "to":[{"key_code":"f"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"r => p CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"r"
+                          },
+                          "to":[{"key_code":"p"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"t => g CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"t"
+                          },
+                          "to":[{"key_code":"g"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"y => j CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"y"
+                          },
+                          "to":[{"key_code":"j"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"u => l CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"u"
+                          },
+                          "to":[{"key_code":"l"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"i => u CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"i"
+                          },
+                          "to":[{"key_code":"u"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"o => y CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"o"
+                          },
+                          "to":[{"key_code":"y"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"p => semicolon CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"p"
+                          },
+                          "to":[{"key_code":"semicolon"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"S => R CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"s",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"r", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"D => S CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"d",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"s", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"F => T CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"f",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"t", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"G => D CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"g",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"d", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"J => N CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"j",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"n", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"K => E CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"k",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"e", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"L => I CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"l",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"i", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"colon => O CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"semicolon",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"o", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"N => K CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"n",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"k", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"E => F CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"e",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"f", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"R => P CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"r",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"p", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"T => G CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"t",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"g", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"Y => J CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"y",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"j", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"U => L CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"u",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"l", "modifiers": "shift"}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"I => U CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"i",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"u", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"O => Y CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"o",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"y", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"P => colon CA",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"p",
+                              "modifiers": {
+                                "mandatory": ["shift"]
+                              }
+                          },
+                          "to":[{"key_code":"semicolon", "modifiers": ["shift"]}],
+                          "conditions": [
+                            {
+                              "type": "input_source_if",
+                              "input_sources": [
+                                {
+                                  "input_source_id": "com.apple.keylayout.Canadian"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "device_unless",
+                              "identifiers": [
+                                {
+                                  "vendor_id": 12951
+                                }
+                              ]
+                            }
+                          ]
+                      }
+                  ]
+              }
+
+          ]
+        
+      }

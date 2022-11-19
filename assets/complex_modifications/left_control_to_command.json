@@ -1,0 +1,31 @@
+{  
+  "title":"left_control_to_command",
+  "rules":[  
+    {
+      "manipulators":[
+          {
+              "description":"left control to command",
+              "type":"basic",
+              "from":{
+                  "key_code":"left_control"
+              },
+              "to": [
+                  {
+                      "key_code": "left_command"
+                  }
+              ],
+              "conditions": [
+                {
+                    "type": "frontmost_application_unless",
+                    "bundle_identifiers": [
+                        "^com\\.apple\\.Terminal$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^org\\.xpra\\.xpra"
+                    ]
+                }
+              ]
+          }
+      ]
+    }
+  ]
+}

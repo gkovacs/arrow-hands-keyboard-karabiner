@@ -158,6 +158,60 @@
                           ]
                       }
                   ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"HOME = cmd + left non-iterm",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"home"
+                          },
+                          "to": [
+                              {
+                                  "key_code": "left_arrow",
+                                  "modifiers": ["right_command"]
+                              }
+                          ],
+                          "conditions": [
+                            {
+                                "type": "frontmost_application_unless",
+                                "bundle_identifiers": [
+                                    "^com\\.apple\\.Terminal$",
+                                    "^com\\.googlecode\\.iterm2$",
+                                    "^org\\.xpra\\.xpra"
+                                ]
+                            }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "manipulators":[
+                      {
+                          "description":"END = cmd + right non-iterm",
+                          "type":"basic",
+                          "from":{
+                              "key_code":"end"
+                          },
+                          "to": [
+                              {
+                                  "key_code": "right_arrow",
+                                  "modifiers": ["right_command"]
+                              }
+                          ],
+                          "conditions": [
+                            {
+                                "type": "frontmost_application_unless",
+                                "bundle_identifiers": [
+                                    "^com\\.apple\\.Terminal$",
+                                    "^com\\.googlecode\\.iterm2$",
+                                    "^org\\.xpra\\.xpra"
+                                ]
+                            }
+                          ]
+                      }
+                  ]
               }
           ]
         

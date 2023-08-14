@@ -4104,6 +4104,14 @@
                             "to": {
                                 "key_code": "fn"
                             }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_option"
+                            },
+                            "to": {
+                                "key_code": "right_control"
+                            }
                         }
                     ]
                 }

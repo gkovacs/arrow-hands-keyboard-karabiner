@@ -4,14 +4,14 @@
     {
       "manipulators":[
           {
-              "description":"left control to right command",
+              "description":"left control to left command",
               "type":"basic",
               "from":{
                   "key_code":"left_control"
               },
               "to": [
                   {
-                      "key_code": "right_command"
+                      "key_code": "left_command"
                   }
               ],
               "conditions": [

@@ -4,14 +4,40 @@
     {
       "manipulators":[
           {
-              "description":"left control to command",
+              "description":"left control to right command",
               "type":"basic",
               "from":{
                   "key_code":"left_control"
               },
               "to": [
                   {
-                      "key_code": "left_command"
+                      "key_code": "right_command"
+                  }
+              ],
+              "conditions": [
+                {
+                    "type": "frontmost_application_unless",
+                    "bundle_identifiers": [
+                        "^com\\.apple\\.Terminal$",
+                        "^com\\.googlecode\\.iterm2$",
+                        "^org\\.xpra\\.xpra"
+                    ]
+                }
+              ]
+          }
+      ]
+    },
+    {
+      "manipulators":[
+          {
+              "description":"left command to left control",
+              "type":"basic",
+              "from":{
+                  "key_code":"left_command"
+              },
+              "to": [
+                  {
+                      "key_code": "left_control"
                   }
               ],
               "conditions": [

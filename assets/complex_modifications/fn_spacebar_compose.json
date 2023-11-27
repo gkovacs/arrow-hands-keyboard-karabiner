@@ -16,7 +16,7 @@
                               "type": "input_source_unless",
                               "input_sources": [
                                 {
-                                  "input_source_id": "im.rime.inputmethod.Squirrel.Rime"
+                                  "input_source_id": "im.rime.inputmethod.Squirrel.Hans"
                                 }
                               ]
                             }
@@ -39,7 +39,7 @@
                               "type": "input_source_if",
                               "input_sources": [
                                 {
-                                  "input_source_id": "im.rime.inputmethod.Squirrel.Rime"
+                                  "input_source_id": "im.rime.inputmethod.Squirrel.Hans"
                                 }
                               ]
                             }
